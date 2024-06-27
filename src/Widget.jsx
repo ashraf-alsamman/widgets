@@ -5,7 +5,7 @@ const Widget = () => {
   const widgetUrl2 = 'https://www.turbopass.com/hamburg-city-pass?widget-token=wptest12345&tokentp=&landing=&layout=embed&origin=https://tptesting.turbopass.com&frameId=869280980330052100&destination_id=&product=hamburg&option=&p=&currency=&_ga=null&r=&test=&order=&booking=&settlement=direct&locale=com&currency=&mobile=false';
 
   return (
-    <div style={{ border: '1px solid #000', padding: '20px', width: '100%', height: '600px' }}>
+    <div style={{ border: '1px solid #000', padding: '20px', width: '50%', height: '400px' }}>
       <iframe
         src={widgetUrl}
         width="30%"
