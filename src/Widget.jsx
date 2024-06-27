@@ -4,7 +4,7 @@ import React from 'react';
 import './App.css'; // Import the CSS file
 
 const Widget = () => {
-  const widgetUrl = 'https://www.turbopass.com/rome-city-pass?landing=&layout=embed&origin=https://tptesting.turbopass.com&frameId=869280980330052100&destination_id=&product=rome&option=&p=&currency=&_ga=null&r=&test=&order=&booking=&settlement=direct&locale=com&currency=&mobile=false';
+  const widgetUrl = 'https://www.turbopass.com/rome-city-pass?widget-token=wptest12345&tokentp=&landing=&layout=embed&origin=https://tptesting.turbopass.com&frameId=869280980330052100&destination_id=&product=rome&option=&p=&currency=&_ga=null&r=&test=&order=&booking=&settlement=direct&locale=com&currency=&mobile=false';
  
   return (
     <div className="app-container">
